@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 100px;
+}
+
+.links {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+a {
+  padding: 10px;
+}
+
+main div p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+main {
+  padding: 75px 100px;
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 5px solid blue;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+}
